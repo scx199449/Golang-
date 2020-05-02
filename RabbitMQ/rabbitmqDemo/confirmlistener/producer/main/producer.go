@@ -8,7 +8,7 @@ import (
 
 const (
 	EXCHANGENAME = "test_confirm_exchange"
-	ROUTINGKEY   = "confirm"
+	ROUTINGKEY   = "confirmlistener"
 )
 
 type Producer struct {
@@ -44,7 +44,7 @@ func main() {
 	p.ch.NotifyPublish(p.notifyconfirm)
 
 	//5、发送一条消息
-	body := "hello, rabbitmq confirm to golang  "
+	body := "hello, rabbitmq confirmlistener to golang  "
 	err = p.ch.Publish(
 		EXCHANGENAME,
 		ROUTINGKEY,
@@ -61,7 +61,7 @@ func main() {
 	case confirm := <-p.notifyconfirm:
 		fmt.Println("ack is :", confirm.Ack)
 		if confirm.Ack {
-			fmt.Println("confirm is true")
+			fmt.Println("confirmlistener is true")
 		}
 	}
 	<-forever

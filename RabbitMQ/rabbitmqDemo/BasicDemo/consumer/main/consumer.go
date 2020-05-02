@@ -5,11 +5,12 @@ import (
 	"log"
 	"time"
 )
+
 //消费者
 func main() {
 	//创建连接
-	conn,err := amqp.Dial("amqp://scx199449:123456@192.168.0.102:5672")
-    FailOnError(err,"Failed to connect to RabbitMQ")
+	conn, err := amqp.Dial("amqp://scx199449:123456@192.168.0.102:5672")
+	FailOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 
 	//创建通道
@@ -41,7 +42,7 @@ func main() {
 
 	/*wg := sync.WaitGroup{}
 	wg.Add(60)*/
-	forever  := make(chan bool)
+	forever := make(chan bool)
 	for i := 0; i < 60; i++ {
 		go func() {
 			for d := range msgs {
@@ -52,9 +53,8 @@ func main() {
 		time.Sleep(5 * time.Second)
 	}
 	log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
-	<- forever //这个地方在channel中取出值之前一直阻塞，从而起到等待多个goroutine执行完的效果
+	<-forever //这个地方在channel中取出值之前一直阻塞，从而起到等待多个goroutine执行完的效果
 	//wg.Wait()
-
 
 }
 

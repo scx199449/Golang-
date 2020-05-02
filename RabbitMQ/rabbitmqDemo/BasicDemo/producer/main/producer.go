@@ -10,25 +10,25 @@ import (
 //生产者
 func main() {
 	//创建一个连接
-	conn,err := amqp.Dial("amqp://scx199449:123456@192.168.0.102:5672/")
-	FailOnError(err,"failed to connect to RabbitMQ")
+	conn, err := amqp.Dial("amqp://scx199449:123456@192.168.0.102:5672/")
+	FailOnError(err, "failed to connect to RabbitMQ")
 	defer conn.Close()
 
 	//开启通道
-	ch,err := conn.Channel()
-	FailOnError(err,"failed to open a channel")
+	ch, err := conn.Channel()
+	FailOnError(err, "failed to open a channel")
 	defer ch.Close()
 
 	//声明队列
-	q,err := ch.QueueDeclare(
+	q, err := ch.QueueDeclare(
 		"test number",
 		false,
 		false,
 		false,
 		false,
 		nil,
-		)
-	FailOnError(err,"Failed to declare a queue")
+	)
+	FailOnError(err, "Failed to declare a queue")
 
 	//发布消息
 	for i := 0; i < 60; i++ {

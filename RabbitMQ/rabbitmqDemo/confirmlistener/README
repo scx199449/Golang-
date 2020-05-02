@@ -1,0 +1,1 @@
+当前Demo主要展示golang中如何实现RabbitMQ的confirm消息确认机制
