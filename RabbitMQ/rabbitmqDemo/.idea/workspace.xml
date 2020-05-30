@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e274a0b-f9a6-438e-aee1-b7a1219a5c98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="E:/GOROOT" />
+  <component name="ProjectId" id="1bGlk8Mqp9h2M7dX9YjaVgjJJhk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../han-networks.com" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GOPATH\src\rabbitmqDemo\confirm\consumer\main" />
+      <recent name="E:\GOPATH\src\rabbitmqDemo\confirm\producer\main" />
+      <recent name="E:\GOPATH\src\rabbitmqDemo\lesson01" />
+      <recent name="E:\GOPATH\src\rabbitmqDemo\producer\main" />
+      <recent name="E:\GOPATH\src\rabbitmqDemo\consumer\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build producer.go (1)">
+    <configuration name="go build boot.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqDemo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/boot.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build consumer.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqDemo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/confirm/consumer/main/consumer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build consumer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqDemo" />
+      <working_directory value="$PROJECT_DIR$/consumer" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/consumer/main/consumer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build producer.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqDemo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/confirm/producer/main/producer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build producer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmqDemo" />
+      <working_directory value="$PROJECT_DIR$/producer" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/producer/main/producer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build boot.go" />
+      <item itemvalue="Go Build.go build producer.go" />
+      <item itemvalue="Go Build.go build consumer.go" />
+      <item itemvalue="Go Build.go build consumer.go (1)" />
+      <item itemvalue="Go Build.go build producer.go (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build producer.go (1)" />
+        <item itemvalue="Go Build.go build consumer.go (1)" />
+        <item itemvalue="Go Build.go build consumer.go" />
+        <item itemvalue="Go Build.go build producer.go" />
+        <item itemvalue="Go Build.go build boot.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588272879303">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588272879303" />
+    <state x="488" y="54" key="#go_build_boot.go" timestamp="1588269824929">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="54" key="#go_build_boot.go/0.0.1536.824@0.0.1536.824" timestamp="1588269824929" />
+    <state x="488" y="54" key="#go_build_consumer.go" timestamp="1588272860421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="54" key="#go_build_consumer.go/0.0.1536.824@0.0.1536.824" timestamp="1588272860421" />
+    <state x="488" y="54" key="#go_build_producer.go" timestamp="1588270602917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="54" key="#go_build_producer.go/0.0.1536.824@0.0.1536.824" timestamp="1588270602917" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588325299716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588325299716" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588363940707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588363940707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588363940707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588363940707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588363940707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588363940707" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588363940707">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588363940707" />
+  </component>
+</project>
